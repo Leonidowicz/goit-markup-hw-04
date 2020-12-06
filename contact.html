@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Контакты</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -39,37 +36,63 @@
     </header>
     <main>
       <h1 class="contact">Следующее домашнее задание.</h1>
-      <svg
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xmlns:ev="http://www.w3.org/2001/xml-events"
-        width="400"
-        height="200"
-        viewBox="0 0 800 400"
-      >
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" width="400" height="200" viewBox="0 0 800 400">
         <circle r="50" cx="50%" cy="50%" fill="red" />
       </svg>
     </main>
     <footer>
       <!-- Adress -->
       <div class="container">
-        <h2>Где нас найти</h2>
-        <a href="./index.html"
-          ><p class="logo">Web<span>Studio</span></p></a
-        >
+        <div class="adres">
+          <h2 class="visuallyhidden">Где нас найти</h2>
+          <a href="./index.html">
+            <p class="logo">Web<span>Studio</span></p></a
+          >
 
-        <address>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <ul>
+          <address>
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-social">
+          <h2>Присоединяйтесь</h2>
+          <ul class="social-links">
             <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a href="https://www.instagram.com/">
+                <svg class="social-link">
+                  <use href="./images/svg/symbol-defs.svg#instagram-1"></use></svg
+              ></a>
             </li>
             <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a href="https://www.twitter.com/"
+                ><svg class="social-link">
+                  <use href="./images/svg/symbol-defs.svg#twitter"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/"
+                ><svg class="social-link">
+                  <use href="./images/svg/symbol-defs.svg#facebook"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/"
+                ><svg class="social-link">
+                  <use href="./images/svg/symbol-defs.svg#linkedin"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
+
+        <div></div>
       </div>
     </footer>
   </body>
