@@ -102,12 +102,21 @@ nav .logo span {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .nav-item:hover,
 .nav-item:focus,
 .nav-item.current,
 .nav-contact:hover {
   color: var(--elements);
 }
+/* .nav-item::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 4px;
+  color: var(--elements);
+  border-radius: 2px;
+} */
 
 /* ------------------------------nav contact */
 
