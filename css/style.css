@@ -354,6 +354,10 @@ address a {
   margin-top: 94px;
   margin-bottom: 50px;
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.24;
+  letter-spacing: 0.03em;
 }
 .regular-customers ul {
   display: flex;
